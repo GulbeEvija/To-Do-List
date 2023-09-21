@@ -10,8 +10,6 @@
   align-items: center;
 }
 
-.circle {
-}
 
 .crossed {
   text-decoration: #F1BC19 3px line-through;
@@ -85,4 +83,38 @@ li {
 .deleteBtn:hover {
   background-color: #f7d2d4;
   transition: ease-in 1s;
+}
+
+@media all and (max-width: 500px) {
+  .App {
+    min-height: 80vh;
+    width: 320px;
+    padding: 10px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 10px;
+    width: 200px;
+    margin-left: 25px;
+  }
+
+  .addBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+
+  .deleteBtn {
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }

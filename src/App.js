@@ -17,7 +17,7 @@ function App() {
         <Task />
       </div>
       <div>
-        <img className='circle' src={imageTwo} width="100px" alt="Progress" />
+        <img src={imageTwo} width="100px" alt="Progress" />
       </div>
     </div>
   );
