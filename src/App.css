@@ -100,13 +100,14 @@ li {
   }
 
   .addBtn {
+    margin-left: 5px;
     width: 40px;
     height: 40px;
     font-size: 25px;
   }
   
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .deleteBtn {
@@ -116,5 +117,10 @@ li {
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+
+  li {
+    font-size: 20px;
+    margin: 5px;
   }
 }
