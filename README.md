@@ -9,7 +9,7 @@
 <h3 align="center">To Do List</h3>
 
   <p align="center">
-    App built with React using props and class components.
+    App built with React using class component.
     <br />
     <br />
     <a href="https://thunderous-narwhal-40dc5d.netlify.app/">View project live on Netlify</a>
@@ -35,15 +35,17 @@
 </details>
 
 
-
 ## About The Project
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started: 
+* In this app users can add and cross out a task, as well as delete the whole list of tasks.
+* To build this app I used 3 attributes - onChange, onClick and onSubmit.
+* "Each child should have a unique key prop" was the challenge I ran into. Therefore when using map(), we also need to add key.
+* In the future I hope to add a button where users can edit a task!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -56,19 +58,15 @@ Here's a blank template to get started:
 
 ## Getting Started
 
-`npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Write in the terminal `npm start` \
+This command runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+The page will reload when you make changes.
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -82,14 +80,16 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 If you have any suggestions that would make this project better, please send me a message!
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Contact
 
-Evija Gulbe - [LinkedIn](https://www.linkedin.com/in/evija-gulbe-534673240/) - evija.gulbe@outlook.com
+Evija Gulbe - [LinkedIn](https://www.linkedin.com/in/evija-gulbe-534673240/)
 
 Project Link: [https://github.com/GulbeEvija/To-Do-List/](https://github.com/GulbeEvija/To-Do-List/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
